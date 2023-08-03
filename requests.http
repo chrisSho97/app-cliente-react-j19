@@ -1,0 +1,10 @@
+@server=https://silver-space-chainsaw-rj547w4r9vg3www7-8080.app.github.dev
+###
+GET {{server}}/api/employees
+
+###
+
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{"firstName":"Mi", "lastName":"Aplicacion", "description":"React"}
