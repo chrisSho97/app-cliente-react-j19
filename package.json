@@ -26,6 +26,7 @@
     },
     "scripts": {
       "watch": "webpack --watch -d --output ./target/classes/static/built/bundle.js",
+      "wp":"webpack",
       "idat": "echo IDAT",
       "gg": "git add . && git commit -m hola && git pull && git push"
 
